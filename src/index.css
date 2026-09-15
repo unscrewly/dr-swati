@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 210 40% 98%;
+    --foreground: 210 42% 5%;
+    --card: 0 0% 100%;
+    --card-foreground: 210 42% 5%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 42% 5%;
+    --primary: 180 91% 39%;
+    --primary-foreground: 0 0% 100%;
+    --primary-light: 180 70% 95%;
+    --primary-strong: 180 91% 33%;
+    --secondary: 213 25% 96%;
+    --secondary-foreground: 210 42% 5%;
+    --muted: 213 25% 94%;
+    --muted-foreground: 213 15% 45%;
+    --accent: 180 70% 95%;
+    --accent-foreground: 185 40% 25%;
+    --surface-dark: 210 42% 5%;
+    --surface-light: 213 25% 96%;
+    --destructive: 0 62% 52%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 213 20% 90%;
+    --input: 213 20% 90%;
+    --ring: 180 91% 39%;
+    --warning: 38 92% 50%;
+    --success: 142 71% 38%;
+    --radius: 0.75rem;
+    --font-heading: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+    --font-body: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+    --font-display: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+    --font-mono: ui-monospace, SFMono-Regular, Menlo, monospace;
+  }
+
+  .lang-mr {
+    --font-heading: "Noto Sans Devanagari", "Plus Jakarta Sans", sans-serif;
+    --font-body: "Noto Sans Devanagari", "Plus Jakarta Sans", sans-serif;
+    --font-display: "Noto Sans Devanagari", "Plus Jakarta Sans", sans-serif;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-background text-foreground font-body antialiased;
+  }
+  h1, h2, h3, h4 {
+    @apply font-heading;
+    letter-spacing: -0.02em;
+  }
+}
+
+@layer components {
+  .container-lux {
+    @apply mx-auto w-full max-w-[1200px] px-6 sm:px-10 lg:px-[60px];
+  }
+  .container-narrow {
+    @apply mx-auto w-full max-w-3xl px-6;
+  }
+  .eyebrow {
+    @apply inline-block text-[0.62rem] font-semibold uppercase tracking-[0.2em] text-primary;
+  }
+  .btn-pill {
+    @apply inline-flex items-center justify-center gap-2 shrink-0 whitespace-nowrap rounded-full font-semibold transition-colors;
+  }
+  .btn-primary {
+    @apply btn-pill bg-primary text-primary-foreground hover:bg-primary-strong px-6 h-11 text-[0.82rem];
+  }
+  .btn-dark {
+    @apply btn-pill bg-surface-dark text-white hover:bg-surface-dark/90 px-6 h-11 text-[0.82rem];
+  }
+  .btn-outline {
+    @apply btn-pill border border-border bg-card text-foreground hover:border-primary hover:text-primary px-6 h-11 text-[0.82rem];
+  }
+  .btn-ghost {
+    @apply btn-pill border border-white/25 text-white hover:bg-white/10 px-6 h-11 text-[0.82rem];
+  }
+  .card-lux {
+    @apply rounded-2xl border border-border bg-card p-6 transition-all duration-200 ease-out;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .hero-gradient {
+    background:
+      linear-gradient(to right, rgba(6,12,20,0.95) 0%, rgba(6,12,20,0.80) 38%, rgba(6,12,20,0.45) 65%, rgba(6,12,20,0.15) 100%),
+      linear-gradient(to top, hsl(var(--surface-dark)) 0%, transparent 22%);
+  }
+  .photo-cta-gradient {
+    background: linear-gradient(to right, rgba(6,12,20,0.90) 0%, rgba(6,12,20,0.65) 50%, rgba(6,12,20,0.15) 100%);
+  }
+}
