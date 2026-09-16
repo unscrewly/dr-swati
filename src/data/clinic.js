@@ -1,4 +1,4 @@
-// Single source of truth for clinic facts — NAP consistency site-wide.
+// Single source of truth for clinic facts - NAP consistency site-wide.
 export const clinic = {
   nameEn: "Dr. Swati's Dental Clinic",
   nameMr: "डॉ. स्वाती यांचा विठाई दातांचा दवाखाना",
@@ -48,8 +48,8 @@ export const testimonials = [
   {
     name: "A returning patient",
     nameMr: "परत आलेले रुग्ण",
-    text: "Calm, clean and caring — the whole visit felt easy. My fear of dental work is finally gone.",
-    textMr: "शांत, स्वच्छ आणि काळजी घेणारे — संपूर्ण भेट सोपी वाटली. दंत उपचाराची भीती शेवटी गेली.",
+    text: "Calm, clean and caring - the whole visit felt easy. My fear of dental work is finally gone.",
+    textMr: "शांत, स्वच्छ आणि काळजी घेणारे - संपूर्ण भेट सोपी वाटली. दंत उपचाराची भीती शेवटी गेली.",
     rating: 5,
   },
 ];
@@ -66,7 +66,7 @@ export const generalFaqs = [
     q: { en: "How do I book an appointment?", mr: "मी अपॉइंटमेंट कसा बुक करू?" },
     a: {
       en: "The fastest way is to call 095527 61082 or message us on WhatsApp. We'll find the earliest available slot for you.",
-      mr: "सर्वात लवकर मार्ग — 095527 61082 वर कॉल करा किंवा व्हॉट्सॲपवर संदेश पाठवा. आम्ही सर्वात लवकर उपलब्ध वेळ शोधू.",
+      mr: "सर्वात लवकर मार्ग - 095527 61082 वर कॉल करा किंवा व्हॉट्सॲपवर संदेश पाठवा. आम्ही सर्वात लवकर उपलब्ध वेळ शोधू.",
     },
   },
   {
@@ -79,22 +79,22 @@ export const generalFaqs = [
   {
     q: { en: "What should I expect to pay?", mr: "मला किती खर्च येऊ शकेल?" },
     a: {
-      en: "Costs vary by treatment. After a check-up we explain the recommended plan and its cost clearly before anything begins — no surprises.",
-      mr: "खर्च उपचारानुसार बदलतो. तपासणीनंतर आम्ही शिफारस केलेली योजना व तिचा खर्च काही सुरू होण्याआधीच स्पष्ट करतो — कोणताही धोका नाही.",
+      en: "Costs vary by treatment. After a check-up we explain the recommended plan and its cost clearly before anything begins - no surprises.",
+      mr: "खर्च उपचारानुसार बदलतो. तपासणीनंतर आम्ही शिफारस केलेली योजना व तिचा खर्च काही सुरू होण्याआधीच स्पष्ट करतो - कोणताही धोका नाही.",
     },
   },
   {
     q: { en: "Do you handle dental emergencies?", mr: "तुम्ही दंत आपत्काळीन परिस्थिती हाताळता का?" },
     a: {
       en: "Yes. For sudden pain, swelling, trauma or a broken tooth, call us immediately and we'll prioritise your visit.",
-      mr: "होय. अचानक वेदना, सूज, इजा किंवा तुटलेला दात यासाठी लगेच कॉल करा — आम्ही तुमची भेट प्राधान्याने घेऊ.",
+      mr: "होय. अचानक वेदना, सूज, इजा किंवा तुटलेला दात यासाठी लगेच कॉल करा - आम्ही तुमची भेट प्राधान्याने घेऊ.",
     },
   },
   {
     q: { en: "How often should I get a dental check-up?", mr: "मी किती वेळा दंत तपासणी करावी?" },
     a: {
       en: "Most people benefit from a check-up and cleaning every six months to catch problems early and keep gums healthy.",
-      mr: "बहुतेकांना सहा महिन्यांतून एक तपासणी व स्वच्छता लाभदायक ठरते — त्रास लवकर ओळखायला आणि हिरड्या निरोगी ठेवायला.",
+      mr: "बहुतेकांना सहा महिन्यांतून एक तपासणी व स्वच्छता लाभदायक ठरते - त्रास लवकर ओळखायला आणि हिरड्या निरोगी ठेवायला.",
     },
   },
   {
@@ -128,15 +128,15 @@ export const generalFaqs = [
   {
     q: { en: "Where exactly is the clinic located?", mr: "दवाखाना नेमका कुठे आहे?" },
     a: {
-      en: "First floor, Vitthal Mandir, Madhali Galli, Vitthal Mandir Chowk, near Vitthal Mandir, Scheme No. 4, Kadamwadi, Kolhapur 416003 — right beside Vitthal Mandir.",
-      mr: "पहिला मजला, विठ्ठल मंदिर, मधली गल्ली, विठ्ठल मंदिर चौक, विठ्ठल मंदिराजवळ, स्कीम क्र. ४, कदमवाडी, कोल्हापूर ४१६००३ — विठ्ठल मंदिराच्या बरोबर शेजारी.",
+      en: "First floor, Vitthal Mandir, Madhali Galli, Vitthal Mandir Chowk, near Vitthal Mandir, Scheme No. 4, Kadamwadi, Kolhapur 416003 - right beside Vitthal Mandir.",
+      mr: "पहिला मजला, विठ्ठल मंदिर, मधली गल्ली, विठ्ठल मंदिर चौक, विठ्ठल मंदिराजवळ, स्कीम क्र. ४, कदमवाडी, कोल्हापूर ४१६००३ - विठ्ठल मंदिराच्या बरोबर शेजारी.",
     },
   },
   {
     q: { en: "Do you provide treatment in Marathi?", mr: "तुम्ही मराठीत उपचार/सल्ला देता का?" },
     a: {
-      en: "Absolutely. We explain everything in Marathi, Hindi or English — whatever you're most comfortable in.",
-      mr: "नक्कीच. आम्ही सर्व मराठी, हिंदी किंवा इंग्रजीत स्पष्ट करतो — ज्यात तुम्हाला सोयीस्कर असेल.",
+      en: "Absolutely. We explain everything in Marathi, Hindi or English - whatever you're most comfortable in.",
+      mr: "नक्कीच. आम्ही सर्व मराठी, हिंदी किंवा इंग्रजीत स्पष्ट करतो - ज्यात तुम्हाला सोयीस्कर असेल.",
     },
   },
 ];

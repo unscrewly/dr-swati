@@ -16,7 +16,7 @@ export default function Reviews() {
       <SEO
         path="/reviews"
         title={lang === "en" ? "Patient Reviews — 5.0 Stars" : "रुग्ण प्रतिक्रिया — 5.0 तारे"}
-        description="Read what patients say about Dr. Swati's Dental Clinic in Kolhapur — painless, comfortable, caring dentistry. 5.0★ across 102 Google reviews."
+        description="Read what patients say about Dr. Swati's Dental Clinic in Kolhapur: painless, comfortable, caring dentistry. 5.0★ across 102 Google reviews."
         jsonLd={breadcrumbSchema([
           { name: t.nav.home, path: "/" },
           { name: t.nav.reviews, path: "/reviews" },

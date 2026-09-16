@@ -15,7 +15,7 @@ export default function About() {
       <SEO
         path="/about"
         title={lang === "en" ? "About Dr. Swati & the Clinic" : "डॉ. स्वाती व दवाखाना आमच्याबद्दल"}
-        description="Meet Dr. Swati and the philosophy behind Dr. Swati's Dental Clinic in Kolhapur — gentle, painless, precision dental care beside Vitthal Mandir, Kadamwadi."
+        description="Meet Dr. Swati and the philosophy behind Dr. Swati's Dental Clinic in Kolhapur: gentle, painless, precision dental care beside Vitthal Mandir, Kadamwadi."
         jsonLd={breadcrumbSchema([
           { name: t.nav.home, path: "/" },
           { name: t.nav.about, path: "/about" },

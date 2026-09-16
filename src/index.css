@@ -102,3 +102,11 @@
     background: linear-gradient(to right, rgba(6,12,20,0.90) 0%, rgba(6,12,20,0.65) 50%, rgba(6,12,20,0.15) 100%);
   }
 }
+
+/* Push44 – Permanently hide Base44 branding badge */
+#base44-edit-badge, #base44-badge, .base44-badge, div[id*='base44'], [data-base44-badge], .made-with-base44, [class*='base44'], #admin-footer {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}

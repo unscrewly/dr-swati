@@ -1,4 +1,4 @@
-// Bilingual UI dictionary — English (en) & Marathi (mr)
+// Bilingual UI dictionary - English (en) & Marathi (mr)
 export const en = {
   nav: { home: "Home", about: "About", services: "Services", reviews: "Reviews", contact: "Contact", faq: "FAQ" },
   cta: {
@@ -26,31 +26,31 @@ export const en = {
     eyebrow: "Kolhapur's painless dental sanctuary",
     heroTitle: "A calm, painless path to a radiant smile",
     heroSubtitle:
-      "Dr. Swati's विठाई दातांचा दवाखाना blends surgical precision with gentle, temple-warm care — right beside Vitthal Mandir, Kadamwadi.",
+      "Dr. Swati's विठाई दातांचा दवाखाना blends surgical precision with gentle, temple-warm care - right beside Vitthal Mandir, Kadamwadi.",
     trustPainless: "Painless, comfortable treatment",
     trustExperience: "Every age, every dental need",
     trustRating: "5.0 ★ from 102 reviews",
     servicesEyebrow: "What we care for",
     servicesTitle: "Complete dentistry under one roof",
-    servicesSubtitle: "From routine check-ups to advanced oral surgery — explore the full range of care.",
+    servicesSubtitle: "From routine check-ups to advanced oral surgery - explore the full range of care.",
     aboutEyebrow: "Your dentist",
-    aboutTitle: "Dr. Swati — gentle hands, precise results",
+    aboutTitle: "Dr. Swati - gentle hands, precise results",
     aboutText:
-      "Patients repeatedly describe their treatment as painless and comfortable. That experience is no accident — it is the standard of care at our clinic.",
+      "Patients repeatedly describe their treatment as painless and comfortable. That experience is no accident - it is the standard of care at our clinic.",
     testimonialsEyebrow: "Patient voices",
     testimonialsTitle: "Comfort, in their words",
     mapEyebrow: "Visit us",
     mapTitle: "Beside Vitthal Mandir, Kadamwadi",
     hoursTitle: "Opening hours",
     ctaTitle: "Ready for painless, confident care?",
-    ctaText: "Call or message us on WhatsApp — we'll find the earliest slot for you.",
+    ctaText: "Call or message us on WhatsApp - we'll find the earliest slot for you.",
   },
   about: {
     eyebrow: "About the clinic",
     title: "Where heritage meets precision healing",
     intro:
       "Dr. Swati's विठाई दातांचा दवाखाना is a neighbourhood dental clinic in Kadamwadi, Kolhapur, built on a simple promise: treatment that feels calm, clear and genuinely painless.",
-    philosophyTitle: "Our philosophy — the Golden Ratio of Care",
+    philosophyTitle: "Our philosophy - the Golden Ratio of Care",
     philosophyText:
       "We pair clinical precision with the warmth of our Vitthal Mandir locality. Every plan is explained before it begins, every step is paced to your comfort, and every result is built to last.",
     credentialsTitle: "Credentials & focus",
@@ -71,7 +71,7 @@ export const en = {
   contact: {
     eyebrow: "Contact",
     title: "Get in touch, the easy way",
-    subtitle: "Call, WhatsApp or visit — we're beside Vitthal Mandir, Kadamwadi.",
+    subtitle: "Call, WhatsApp or visit - we're beside Vitthal Mandir, Kadamwadi.",
     addressTitle: "Address",
     phoneTitle: "Phone",
     whatsappTitle: "WhatsApp",
@@ -126,31 +126,31 @@ export const mr = {
     eyebrow: "कोल्हापूरचे वेदनारहित दंत संरक्षण",
     heroTitle: "तेजस्वी हसण्याकडे एक शांत, वेदनारहित मार्ग",
     heroSubtitle:
-      "डॉ. स्वाती यांचा विठाई दातांचा दवाखाना — शस्त्रक्रियेची अचूकता आणि विठ्ठल मंदिराजवळच्या घरासारख्या आत्मीयतेचा संगम, कदमवाडी, कोल्हापूर.",
+      "डॉ. स्वाती यांचा विठाई दातांचा दवाखाना - शस्त्रक्रियेची अचूकता आणि विठ्ठल मंदिराजवळच्या घरासारख्या आत्मीयतेचा संगम, कदमवाडी, कोल्हापूर.",
     trustPainless: "वेदनारहित, आरामदायी उपचार",
     trustExperience: "प्रत्येक वय, प्रत्येक दंत गरज",
     trustRating: "102 प्रतिक्रियांतून 5.0 ★",
     servicesEyebrow: "आम्ही काय काळजी घेतो",
     servicesTitle: "एकाच छताखाली संपूर्ण दंतवैद्यकीय",
-    servicesSubtitle: "नियती तपासणीपासून ते उन्नत ओरल सर्जरीपर्यंत — संपूर्ण सेवांचा शोध घ्या.",
+    servicesSubtitle: "नियती तपासणीपासून ते उन्नत ओरल सर्जरीपर्यंत - संपूर्ण सेवांचा शोध घ्या.",
     aboutEyebrow: "तुमचे दंततज्ज्ञ",
-    aboutTitle: "डॉ. स्वाती — कोमल हात, अचूक निकाल",
+    aboutTitle: "डॉ. स्वाती - कोमल हात, अचूक निकाल",
     aboutText:
-      "रुग्ण वारंवार आपल्या उपचारांना वेदनारहित आणि आरामदायी म्हणून वर्णन करतात. हा अनुभव योगायोग नाही — तो आमच्या दवाखान्याचा दर्जा आहे.",
+      "रुग्ण वारंवार आपल्या उपचारांना वेदनारहित आणि आरामदायी म्हणून वर्णन करतात. हा अनुभव योगायोग नाही - तो आमच्या दवाखान्याचा दर्जा आहे.",
     testimonialsEyebrow: "रुग्णांचे शब्द",
     testimonialsTitle: "आराम, त्यांच्या शब्दांत",
     mapEyebrow: "भेट द्या",
     mapTitle: "विठ्ठल मंदिराजवळ, कदमवाडी",
     hoursTitle: "सुरू असलेले तास",
     ctaTitle: "वेदनारहित, आत्मविश्वासाच्या सेवेसाठी तयार?",
-    ctaText: "कॉल करा किंवा व्हॉट्सॲपवर संदेश पाठवा — आम्ही सर्वात लवकर वेळ शोधू.",
+    ctaText: "कॉल करा किंवा व्हॉट्सॲपवर संदेश पाठवा - आम्ही सर्वात लवकर वेळ शोधू.",
   },
   about: {
     eyebrow: "दवाखान्याबद्दल",
     title: "जिथे परंपरा आणि अचूक उपचार भेटतात",
     intro:
-      "डॉ. स्वाती यांचा विठाई दातांचा दवाखाना हे कदमवाडी, कोल्हापूर येथील एक मोहल्ल्याचे दंत दवाखाना आहे — एका साध्या वचनावर उभे: शांत, स्पष्ट आणि खरोखर वेदनारहित उपचार.",
-    philosophyTitle: "आमचे तत्त्वज्ञान — काळजीचे सुवर्ण प्रमाण",
+      "डॉ. स्वाती यांचा विठाई दातांचा दवाखाना हे कदमवाडी, कोल्हापूर येथील एक मोहल्ल्याचे दंत दवाखाना आहे - एका साध्या वचनावर उभे: शांत, स्पष्ट आणि खरोखर वेदनारहित उपचार.",
+    philosophyTitle: "आमचे तत्त्वज्ञान - काळजीचे सुवर्ण प्रमाण",
     philosophyText:
       "आम्ही वैद्यकीय अचूकतेची जोडी विठ्ठल मंदिर परिसराच्या उबेशी घालतो. प्रत्येक उपचार योजना सुरू होण्याआधी स्पष्ट केली जाते, प्रत्येक पायरी तुमच्या आरामानुसार ठेवली जाते.",
     credentialsTitle: "पात्रता व केंद्र",
@@ -171,7 +171,7 @@ export const mr = {
   contact: {
     eyebrow: "संपर्क",
     title: "संपर्क करा, सोप्या पद्धतीने",
-    subtitle: "कॉल, व्हॉट्सॲप किंवा भेट — आम्ही विठ्ठल मंदिराजवळ, कदमवाडी.",
+    subtitle: "कॉल, व्हॉट्सॲप किंवा भेट - आम्ही विठ्ठल मंदिराजवळ, कदमवाडी.",
     addressTitle: "पत्ता",
     phoneTitle: "फोन",
     whatsappTitle: "व्हॉट्सॲप",

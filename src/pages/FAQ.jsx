@@ -15,7 +15,7 @@ export default function FAQ() {
       <SEO
         path="/faq"
         title={lang === "en" ? "Dental FAQs — Kolhapur" : "दंत प्रश्नोत्तर — कोल्हापूर"}
-        description="Answers to common dental questions — pain, appointments, costs, emergencies, root canals, implants and more — at Dr. Swati's Dental Clinic, Kolhapur."
+        description="Answers to common dental questions: pain, appointments, costs, emergencies, root canals, implants and more, at Dr. Swati's Dental Clinic, Kolhapur."
         jsonLd={[faqSchema(generalFaqs), breadcrumbSchema([
           { name: t.nav.home, path: "/" },
           { name: t.nav.faq, path: "/faq" },

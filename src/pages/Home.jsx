@@ -59,7 +59,7 @@ export default function Home() {
       <SEO
         path="/"
         title={lang === "en" ? "Painless Dental Care in Kolhapur" : "कोल्हापूरमध्ये वेदनारहित दंत सेवा"}
-        description="Dr. Swati's Dental Clinic — painless root canals, implants, cosmetic dentistry & more in Kadamwadi, Kolhapur. 5.0★ (102 reviews). Call 095527 61082."
+        description="Dr. Swati's Dental Clinic: painless root canals, implants, cosmetic dentistry & more in Kadamwadi, Kolhapur. 5.0★ (102 reviews). Call 095527 61082."
         jsonLd={dentistSchema()}
       />
 
@@ -149,7 +149,7 @@ export default function Home() {
               <div className="flex flex-wrap gap-12">
                 <StatCounter value={5.0} decimals={1} label={lang === "en" ? "Rating" : "रेटिंग"} />
                 <StatCounter value={102} suffix="+" label={lang === "en" ? "Google Reviews" : "Google प्रतिक्रिया"} />
-                <StatCounter value={services.length} suffix="+" label={lang === "en" ? "Treatments" : "उपचार"} />
+                <StatCounter value={500} suffix="+" label={lang === "en" ? "Treatments" : "उपचार"} />
                 <StatCounter value={100} suffix="%" label={t.common.painless} />
               </div>
               <div className="ml-auto h-[160px] w-[210px] overflow-hidden rounded-2xl">

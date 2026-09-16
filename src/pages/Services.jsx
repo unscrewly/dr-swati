@@ -77,19 +77,19 @@ export default function Services() {
                 </Reveal>
               </div>
 
-              <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+              <div className="mt-8 grid grid-cols-2 gap-3 sm:gap-5 lg:grid-cols-3">
                 {items.map((s, i) => (
                   <Reveal key={s.slug} delay={(i % 3) * 0.06}>
                     <Link
                       to={`/services/${s.slug}`}
-                      className="card-lux group flex h-full flex-col gap-3 hover:-translate-y-1 hover:border-primary/40"
+                      className="group flex h-full flex-col gap-2 rounded-2xl border border-border bg-card p-4 transition-all duration-200 hover:-translate-y-1 hover:border-primary/40 sm:gap-3 sm:p-6"
                     >
-                      <span className="inline-flex h-11 w-11 items-center justify-center rounded-2xl bg-accent text-accent-foreground transition group-hover:bg-primary group-hover:text-primary-foreground">
+                      <span className="inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-accent text-accent-foreground transition group-hover:bg-primary group-hover:text-primary-foreground sm:h-11 sm:w-11">
                         <ServiceIcon name={s.icon} className="h-5 w-5" />
                       </span>
-                      <h3 className="text-lg font-bold leading-tight text-surface-dark">{s.name[lang]}</h3>
-                      <p className="text-sm font-light leading-relaxed text-muted-foreground">{s.tagline[lang]}</p>
-                      <span className="mt-auto text-sm font-semibold text-primary-strong">
+                      <h3 className="text-base font-bold leading-tight text-surface-dark sm:text-lg">{s.name[lang]}</h3>
+                      <p className="text-xs font-light leading-relaxed text-muted-foreground sm:text-sm">{s.tagline[lang]}</p>
+                      <span className="mt-auto text-xs font-semibold text-primary-strong sm:text-sm">
                         {lang === "en" ? "View" : "पहा"} <span className="inline-block transition group-hover:translate-x-1">→</span>
                       </span>
                     </Link>

@@ -1,4 +1,4 @@
-// All dental services — unique bilingual content per treatment.
+// All dental services - unique bilingual content per treatment.
 // Each service: { slug, category, icon, name, tagline, what, benefits[], faqs[], related[] }
 
 export const services = [
@@ -189,7 +189,7 @@ export const services = [
       { en: "Natural, stain-resistant results", mr: "नैसर्गिक, डाग-प्रतिरोधी निकाल" },
     ],
     faqs: [
-      { q: { en: "Veneers or crowns — which do I need?", mr: "व्हिनिअर्स की क्राउन्स — मला काय लागेल?" }, a: { en: "Veneers for front cosmetic changes; crowns for damaged teeth.", mr: "पुढच्या सौंदर्य बदलांसाठी व्हिनिअर्स; इज्य झालेल्या दातांसाठी क्राउन्स." } },
+      { q: { en: "Veneers or crowns - which do I need?", mr: "व्हिनिअर्स की क्राउन्स - मला काय लागेल?" }, a: { en: "Veneers for front cosmetic changes; crowns for damaged teeth.", mr: "पुढच्या सौंदर्य बदलांसाठी व्हिनिअर्स; इज्य झालेल्या दातांसाठी क्राउन्स." } },
       { q: { en: "How long do they last?", mr: "ते किती टिकतात?" }, a: { en: "Often 10–15 years with good care.", mr: "चांगल्या काळजीने साधारण १०–१५ वर्षे." } },
     ],
     related: ["smile-designing", "zirconia-ceramic-crowns", "teeth-whitening"],
@@ -275,7 +275,7 @@ export const services = [
       { en: "Single-sitting option for suitable cases", mr: "योग्य बाबतीत एकाच बैठकीचा पर्याय" },
     ],
     faqs: [
-      { q: { en: "Does a root canal hurt?", mr: "रूट कॅनाल दुखतो का?" }, a: { en: "No — it relieves pain, not causes it.", mr: "नाही — तो वेदना दूर करतो, देत नाही." } },
+      { q: { en: "Does a root canal hurt?", mr: "रूट कॅनाल दुखतो का?" }, a: { en: "No - it relieves pain, not causes it.", mr: "नाही - तो वेदना दूर करतो, देत नाही." } },
       { q: { en: "What is single-sitting RCT?", mr: "एकल बैठक RCT म्हणजे काय?" }, a: { en: "Completing the root canal in one visit, for suitable cases.", mr: "योग्य बाबतीत एकाच भेटीत रूट कॅनाल पूर्ण करणे." } },
     ],
     related: ["zirconia-ceramic-crowns", "fillings-sealants", "extractions"],
@@ -287,8 +287,8 @@ export const services = [
     name: { en: "Tooth Extractions", mr: "दात काढणे" },
     tagline: { en: "Gentle removal when needed", mr: "गरज असल्यास कोमल काढणे" },
     what: {
-      en: "When a tooth can't be saved — severe decay, fracture or overcrowding — extraction relieves pain and protects the rest of your mouth. We numb the area thoroughly and remove the tooth with care. We'll discuss replacing it afterwards.",
-      mr: "दात वाचवता न आल्यास — तीव्र दुरुस्ती, तडा किंवा दाटपणा — काढणे वेदना दूर करून तोंडाचे आरोग्य राखते. आम्ही भाग पूर्ण बध्द करून दात काळजीपूर्वक काढतो. नंतरची जागा भरण्याचे मार्ग आम्ही चर्चा करतो.",
+      en: "When a tooth can't be saved - severe decay, fracture or overcrowding - extraction relieves pain and protects the rest of your mouth. We numb the area thoroughly and remove the tooth with care. We'll discuss replacing it afterwards.",
+      mr: "दात वाचवता न आल्यास - तीव्र दुरुस्ती, तडा किंवा दाटपणा - काढणे वेदना दूर करून तोंडाचे आरोग्य राखते. आम्ही भाग पूर्ण बध्द करून दात काळजीपूर्वक काढतो. नंतरची जागा भरण्याचे मार्ग आम्ही चर्चा करतो.",
     },
     benefits: [
       { en: "Relieves pain and infection", mr: "वेदना व संक्रमण दूर करते" },
@@ -350,8 +350,8 @@ export const services = [
     name: { en: "Facio-Maxillary Surgery", mr: "फेशिओ-मॅक्सिलरी सर्जरी" },
     tagline: { en: "Jaw & facial surgery", mr: "जबडा व चेहऱ्याची शस्त्रक्रिया" },
     what: {
-      en: "Facio-maxillary surgery treats injuries, deformities and diseases of the face, jaws and mouth — fractures, cysts, tumours and corrective jaw issues. We plan each case with detailed imaging and coordinate care for safe, functional and aesthetic outcomes.",
-      mr: "फेशिओ-मॅक्सिलरी सर्जरी चेहरा, जबडा व तोंडाच्या इजा, विकृती व रोगांवर उपचार करते — तडे, सिस्ट, गाठी व जबड्याच्या सुधारात्मक बाबती. आम्ही तपस्वी इमेजिंगसह प्रत्येक बाबत नियोजन करून सुरक्षित, कार्यक्षम व सौंदर्यपूर्ण निकालासाठी सेवा जोडतो.",
+      en: "Facio-maxillary surgery treats injuries, deformities and diseases of the face, jaws and mouth - fractures, cysts, tumours and corrective jaw issues. We plan each case with detailed imaging and coordinate care for safe, functional and aesthetic outcomes.",
+      mr: "फेशिओ-मॅक्सिलरी सर्जरी चेहरा, जबडा व तोंडाच्या इजा, विकृती व रोगांवर उपचार करते - तडे, सिस्ट, गाठी व जबड्याच्या सुधारात्मक बाबती. आम्ही तपस्वी इमेजिंगसह प्रत्येक बाबत नियोजन करून सुरक्षित, कार्यक्षम व सौंदर्यपूर्ण निकालासाठी सेवा जोडतो.",
     },
     benefits: [
       { en: "Treats complex facial & jaw conditions", mr: "गुंतागुंतीच्या चेहरा-जबडा स्थिती उपचार" },
@@ -392,8 +392,8 @@ export const services = [
     name: { en: "Jaw Fracture Treatment", mr: "जबडा तुटल्याचा उपचार" },
     tagline: { en: "Restore alignment & function", mr: "रांग व कार्य परत" },
     what: {
-      en: "Jaw fractures from accidents or trauma need prompt, precise care to restore bite and facial shape. We assess the break with imaging and stabilise it — sometimes with wiring or plates — so it heals in the correct position. Follow-up ensures proper recovery.",
-      mr: "अपघात किंवा इजेमुळे जबडा तुटल्यास चघण्याचे कार्य व चेहऱ्याचा आकार परत आणण्यासाठी त्वरित, अचूक सेवा लागते. आम्ही इमेजिंगने तडा तपासून योग्य स्थितीत बरे होईल अशी स्थिरता — कधी वायरिंग किंवा प्लेटने — देतो. पुनर्तपासणी योग्य बरे होणे सुनिश्चित करते.",
+      en: "Jaw fractures from accidents or trauma need prompt, precise care to restore bite and facial shape. We assess the break with imaging and stabilise it - sometimes with wiring or plates - so it heals in the correct position. Follow-up ensures proper recovery.",
+      mr: "अपघात किंवा इजेमुळे जबडा तुटल्यास चघण्याचे कार्य व चेहऱ्याचा आकार परत आणण्यासाठी त्वरित, अचूक सेवा लागते. आम्ही इमेजिंगने तडा तपासून योग्य स्थितीत बरे होईल अशी स्थिरता - कधी वायरिंग किंवा प्लेटने - देतो. पुनर्तपासणी योग्य बरे होणे सुनिश्चित करते.",
     },
     benefits: [
       { en: "Restores bite and facial shape", mr: "चघण्याचे कार्य व चेहऱ्याचा आकार परत" },
@@ -520,8 +520,8 @@ export const services = [
     name: { en: "Mal-aligned Teeth Treatment", mr: "विस्थापित दात उपचार" },
     tagline: { en: "Correct crowding & spacing", mr: "दाटपणा व मोकळी जागा बरे" },
     what: {
-      en: "Mal-aligned teeth — crowding, gaps or crossbite — affect chewing, cleaning and confidence. We assess the cause and recommend braces, aligners or a combination to guide teeth into a healthy, balanced position. Early treatment often gives the best results.",
-      mr: "विस्थापित दात — दाटपणा, मोकळी जागा किंवा क्रॉसबाईट — चघणे, स्वच्छता व आत्मविश्वासावर परिणाम करतात. आम्ही कारण तपासून ब्रेसेस, अलायनर किंवा जोडी शिफारस करून दात निरोगी, संतुलित स्थितीत नेतो. लवकर उपचार बहुतेक वेळा सर्वोत्तम निकाल देतो.",
+      en: "Mal-aligned teeth - crowding, gaps or crossbite - affect chewing, cleaning and confidence. We assess the cause and recommend braces, aligners or a combination to guide teeth into a healthy, balanced position. Early treatment often gives the best results.",
+      mr: "विस्थापित दात - दाटपणा, मोकळी जागा किंवा क्रॉसबाईट - चघणे, स्वच्छता व आत्मविश्वासावर परिणाम करतात. आम्ही कारण तपासून ब्रेसेस, अलायनर किंवा जोडी शिफारस करून दात निरोगी, संतुलित स्थितीत नेतो. लवकर उपचार बहुतेक वेळा सर्वोत्तम निकाल देतो.",
     },
     benefits: [
       { en: "Improves bite and chewing", mr: "चघणे व बाईट सुधारते" },
@@ -543,8 +543,8 @@ export const services = [
     name: { en: "Paediatric Dentistry", mr: "बाल दंतवैद्यकीय" },
     tagline: { en: "Gentle care for little smiles", mr: "लहान हसण्यासाठी कोमल सेवा" },
     what: {
-      en: "Children need a calm, friendly approach — and that's what we provide for every dental treatment, from check-ups to fillings and sealants. We help kids build healthy habits and a positive attitude toward the dentist. Early care sets up a lifetime of healthy smiles.",
-      mr: "मुलांना शांत, मित्रप्राय वागणूक लागते — व तपासणीपासून फिलिंग व सीलंटपर्यंत प्रत्येक दंत उपचारात तेच आम्ही देतो. आम्ही मुलांना निरोगी सवयी व दंततज्जांबद्दल सकारात्मक वृत्ती राबवायला मदत करतो. लवकर सेवा आयुष्यभराच्या निरोगी हसण्याची सुरुवात करते.",
+      en: "Children need a calm, friendly approach - and that's what we provide for every dental treatment, from check-ups to fillings and sealants. We help kids build healthy habits and a positive attitude toward the dentist. Early care sets up a lifetime of healthy smiles.",
+      mr: "मुलांना शांत, मित्रप्राय वागणूक लागते - व तपासणीपासून फिलिंग व सीलंटपर्यंत प्रत्येक दंत उपचारात तेच आम्ही देतो. आम्ही मुलांना निरोगी सवयी व दंततज्जांबद्दल सकारात्मक वृत्ती राबवायला मदत करतो. लवकर सेवा आयुष्यभराच्या निरोगी हसण्याची सुरुवात करते.",
     },
     benefits: [
       { en: "Child-friendly, calm approach", mr: "मुलांना आरामदायी, शांत वागणूक" },
@@ -564,8 +564,8 @@ export const services = [
     name: { en: "Geriatric Dentistry", mr: "ज्येष्ठ दंतवैद्यकीय" },
     tagline: { en: "Dignified care for elders", mr: "वृद्धांसाठी सन्मानाने सेवा" },
     what: {
-      en: "Older patients face worn teeth, gum recession, dry mouth and missing teeth — and deserve patient, dignified care. We handle all dental treatments for elders with attention to comfort and medical history. Our goal is to keep them eating and smiling comfortably.",
-      mr: "वृद्ध रुग्णांना झीजलेले दात, हिरड्या आकुंचन, कोरडे तोंड व गहाळ दात असतात — व त्यांना धैर्याने, सन्मानाने सेवा हक्काची. आम्ही वृद्धांचे सर्व दंत उपचार आराम व वैद्यकीय इतिहासाकडे लक्ष देऊन करतो. आमचे ध्येय त्यांना आरामाने चघणे व हसणे राखायला मदत करणे.",
+      en: "Older patients face worn teeth, gum recession, dry mouth and missing teeth - and deserve patient, dignified care. We handle all dental treatments for elders with attention to comfort and medical history. Our goal is to keep them eating and smiling comfortably.",
+      mr: "वृद्ध रुग्णांना झीजलेले दात, हिरड्या आकुंचन, कोरडे तोंड व गहाळ दात असतात - व त्यांना धैर्याने, सन्मानाने सेवा हक्काची. आम्ही वृद्धांचे सर्व दंत उपचार आराम व वैद्यकीय इतिहासाकडे लक्ष देऊन करतो. आमचे ध्येय त्यांना आरामाने चघणे व हसणे राखायला मदत करणे.",
     },
     benefits: [
       { en: "Comfort-first, patient approach", mr: "आराम-प्रथम, धैर्याने सेवा" },
@@ -574,7 +574,7 @@ export const services = [
     ],
     faqs: [
       { q: { en: "Is treatment safe at an older age?", mr: "वयानुसार उपचार सुरक्षित आहे का?" }, a: { en: "Yes, we tailor it to your health.", mr: "होय, तुमच्या आरोग्यानुसार आम्ही ठरवतो." } },
-      { q: { en: "Can missing teeth still be replaced?", mr: "गहाळ दात अजूनही बदलता येतात का?" }, a: { en: "Yes — dentures, bridges or implants.", mr: "होय — डेंचर्स, ब्रिज किंवा प्रत्यारोप." } },
+      { q: { en: "Can missing teeth still be replaced?", mr: "गहाळ दात अजूनही बदलता येतात का?" }, a: { en: "Yes - dentures, bridges or implants.", mr: "होय - डेंचर्स, ब्रिज किंवा प्रत्यारोप." } },
     ],
     related: ["dentures-bridges", "dental-implants", "gum-care"],
   },
@@ -585,8 +585,8 @@ export const services = [
     name: { en: "Emergency Dental Care", mr: "आपत्काळीन दंत सेवा" },
     tagline: { en: "Fast relief when it hurts", mr: "दुखत असल्यास लवकर आराम" },
     what: {
-      en: "Dental emergencies — severe pain, swelling, a knocked-out or broken tooth — need quick attention. Call us right away and we'll prioritise your visit to relieve pain and protect the tooth. Bring any broken or avulsed tooth pieces with you.",
-      mr: "दंत आपत्काळीन स्थिती — तीव्र वेदना, सूज, बाहेर पडलेला किंवा तुटलेला दात — लवकर लक्ष लागते. लगेच कॉल करा, आम्ही वेदना दूर करून दात राखण्यासाठी तुमची भेट प्राधान्याने घेऊ. तुटलेले किंवा बाहेर पडलेले दाताचे तुकडे सोबत आणा.",
+      en: "Dental emergencies - severe pain, swelling, a knocked-out or broken tooth - need quick attention. Call us right away and we'll prioritise your visit to relieve pain and protect the tooth. Bring any broken or avulsed tooth pieces with you.",
+      mr: "दंत आपत्काळीन स्थिती - तीव्र वेदना, सूज, बाहेर पडलेला किंवा तुटलेला दात - लवकर लक्ष लागते. लगेच कॉल करा, आम्ही वेदना दूर करून दात राखण्यासाठी तुमची भेट प्राधान्याने घेऊ. तुटलेले किंवा बाहेर पडलेले दाताचे तुकडे सोबत आणा.",
     },
     benefits: [
       { en: "Priority appointment for pain", mr: "वेदनेसाठी प्राधान्य अपॉइंटमेंट" },
@@ -627,8 +627,8 @@ export const services = [
     name: { en: "Diagnosis & Treatment of Oral Lesions / Oral Cancer", mr: "ओरल लेझियन / ओरल कॅन्सर निदान व उपचार" },
     tagline: { en: "Early detection saves lives", mr: "लवकर ओळख आयुष्य वाचवते" },
     what: {
-      en: "We screen for oral lesions, ulcers and changes that could signal cancer or pre-cancer, and arrange biopsy or referral when needed. Early detection dramatically improves outcomes. We also guide prevention — especially for tobacco and betel-nut users.",
-      mr: "आम्ही ओरल लेझियन, व्रण व बदलांची तपासणी करतो जी कॅन्सर किंवा पूर्व-कॅन्सर दर्शवू शकतात, व गरजेनुसार बायोप्सी किंवा रेफरल ठरवतो. लवकर ओळख निकाल लक्षणीय सुधारतो. आम्ही प्रतिबंधही मार्गदर्शन करतो — विशेषतः तंबाखू व सुपारी वापरणाऱ्यांसाठी.",
+      en: "We screen for oral lesions, ulcers and changes that could signal cancer or pre-cancer, and arrange biopsy or referral when needed. Early detection dramatically improves outcomes. We also guide prevention - especially for tobacco and betel-nut users.",
+      mr: "आम्ही ओरल लेझियन, व्रण व बदलांची तपासणी करतो जी कॅन्सर किंवा पूर्व-कॅन्सर दर्शवू शकतात, व गरजेनुसार बायोप्सी किंवा रेफरल ठरवतो. लवकर ओळख निकाल लक्षणीय सुधारतो. आम्ही प्रतिबंधही मार्गदर्शन करतो - विशेषतः तंबाखू व सुपारी वापरणाऱ्यांसाठी.",
     },
     benefits: [
       { en: "Early screening for lesions", mr: "लेझियनची लवकर तपासणी" },
@@ -648,8 +648,8 @@ export const services = [
     name: { en: "Oral Ulcers Treatment", mr: "ओरल व्रण उपचार" },
     tagline: { en: "Soothe painful mouth sores", mr: "दुखणाऱ्या व्रणांना आराम" },
     what: {
-      en: "Mouth ulcers can be painful and sometimes signal underlying conditions. We identify the cause — stress, deficiency, trauma or disease — and treat accordingly, easing pain and helping healing. Persistent ulcers are checked for serious causes.",
-      mr: "तोंडातील व्रण वेदनादायक असू शकतात व कधी खालील आजार दर्शवतात. आम्ही कारण ओळखतो — तणाव, कमतरता, इजा किंवा रोग — व तदनुसार उपचार करून वेदना कमी करून बरे होणे सोपे करतो. जुनाट व्रण गंभीर कारणांसाठी तपासले जातात.",
+      en: "Mouth ulcers can be painful and sometimes signal underlying conditions. We identify the cause - stress, deficiency, trauma or disease - and treat accordingly, easing pain and helping healing. Persistent ulcers are checked for serious causes.",
+      mr: "तोंडातील व्रण वेदनादायक असू शकतात व कधी खालील आजार दर्शवतात. आम्ही कारण ओळखतो - तणाव, कमतरता, इजा किंवा रोग - व तदनुसार उपचार करून वेदना कमी करून बरे होणे सोपे करतो. जुनाट व्रण गंभीर कारणांसाठी तपासले जातात.",
     },
     benefits: [
       { en: "Relieves ulcer pain quickly", mr: "व्रण वेदना लवकर दूर" },
@@ -669,8 +669,8 @@ export const services = [
     name: { en: "Difficulty Opening Mouth Treatment", mr: "तोंड उघडण्यात अडचण उपचार" },
     tagline: { en: "Restore full mouth movement", mr: "तोंडाचे पूर्ण हालचाल परत" },
     what: {
-      en: "Limited mouth opening (trismus) can follow trauma, infection, oral submucous fibrosis or jaw joint issues. We diagnose the cause and treat it — medication, exercises or minor procedures — to restore comfortable movement. Early care prevents stiffness from worsening.",
-      mr: "तोंड कमी उघडणे (ट्रिझमस) इजा, संक्रमण, ओरल सबम्युकस फायब्रोसिस किंवा जबडा सांध्याच्या त्रासामुळे होऊ शकते. आम्ही कारण निदान करून — औषध, व्यायाम किंवा लघु प्रक्रिया — आरामदायक हालचाल परत आणतो. लवकर सेवे ताठपणा वाढणे टाळते.",
+      en: "Limited mouth opening (trismus) can follow trauma, infection, oral submucous fibrosis or jaw joint issues. We diagnose the cause and treat it - medication, exercises or minor procedures - to restore comfortable movement. Early care prevents stiffness from worsening.",
+      mr: "तोंड कमी उघडणे (ट्रिझमस) इजा, संक्रमण, ओरल सबम्युकस फायब्रोसिस किंवा जबडा सांध्याच्या त्रासामुळे होऊ शकते. आम्ही कारण निदान करून - औषध, व्यायाम किंवा लघु प्रक्रिया - आरामदायक हालचाल परत आणतो. लवकर सेवे ताठपणा वाढणे टाळते.",
     },
     benefits: [
       { en: "Diagnoses the underlying cause", mr: "खालील कारण निदान" },
@@ -700,7 +700,7 @@ export const services = [
     ],
     faqs: [
       { q: { en: "Are these fillings durable?", mr: "हे फिलिंग टिकाऊ आहेत का?" }, a: { en: "Yes, with normal care.", mr: "होय, सामान्य काळजीने." } },
-      { q: { en: "Composite or GIC — which?", mr: "कंपोझिट की GIC — कोणते?" }, a: { en: "Depends on the tooth and location.", mr: "दात व जागेवर अवलंबून." } },
+      { q: { en: "Composite or GIC - which?", mr: "कंपोझिट की GIC - कोणते?" }, a: { en: "Depends on the tooth and location.", mr: "दात व जागेवर अवलंबून." } },
     ],
     related: ["fillings-sealants", "bonding", "veneers-crowns"],
   },
